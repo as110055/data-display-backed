@@ -1,0 +1,141 @@
+2023-07-26 23:00:05 [ main:0 ] - [ DEBUG ] 这是debug级别的信息
+2023-07-26 23:00:05 [ main:1 ] - [ INFO ] 这是info级别的信息
+2023-07-26 23:00:05 [ main:2 ] - [ ERROR ] 这是error级别的信息
+2023-07-26 23:01:05 [ http-nio-8081-exec-1:0 ] - [ DEBUG ] {conn-10001} connected
+2023-07-26 23:01:05 [ http-nio-8081-exec-1:14 ] - [ DEBUG ] {conn-10002} connected
+2023-07-26 23:01:05 [ http-nio-8081-exec-1:25 ] - [ DEBUG ] {conn-10003} connected
+2023-07-26 23:01:05 [ http-nio-8081-exec-1:36 ] - [ DEBUG ] {conn-10004} connected
+2023-07-26 23:01:05 [ http-nio-8081-exec-1:46 ] - [ DEBUG ] {conn-10005} connected
+2023-07-26 23:01:05 [ http-nio-8081-exec-1:49 ] - [ DEBUG ] {conn-10005} pool-connect
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:104 ] - [ DEBUG ] {conn-10005, pstmt-20000} created. select * from user limit ?, ?
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:113 ] - [ DEBUG ] {conn-10005, pstmt-20000} Parameters : [0, 5]
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:114 ] - [ DEBUG ] {conn-10005, pstmt-20000} Types : [INTEGER, INTEGER]
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:120 ] - [ DEBUG ] {conn-10005, pstmt-20000} executed. 8.4982 millis. select * from user limit ?, ?
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:123 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} open
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:124 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} Header: [id, username, age, gender, education]
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:130 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} Result: [1, xia xiu ying, 61, F, bachelor]
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:131 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} Result: [2, chin tin lok, 34, M, master]
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:132 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} Result: [3, ng ka fei, 60, M, master]
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:133 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} closed
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:134 ] - [ DEBUG ] {conn-10005, pstmt-20000} clearParameters. 
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:135 ] - [ DEBUG ] {conn-10005} pool-recycle
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:135 ] - [ DEBUG ] {conn-10005} pool-connect
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:136 ] - [ DEBUG ] {conn-10005, pstmt-20001} created. select count(*) from country
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:137 ] - [ DEBUG ] {conn-10005, pstmt-20001} Parameters : []
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:137 ] - [ DEBUG ] {conn-10005, pstmt-20001} Types : []
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:139 ] - [ DEBUG ] {conn-10005, pstmt-20001} executed. 2.2486 millis. select count(*) from country
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:139 ] - [ DEBUG ] {conn-10005, pstmt-20001, rs-50001} open
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:139 ] - [ DEBUG ] {conn-10005, pstmt-20001, rs-50001} Header: [count(*)]
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:140 ] - [ DEBUG ] {conn-10005, pstmt-20001, rs-50001} Result: [239]
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:141 ] - [ DEBUG ] {conn-10005, pstmt-20001, rs-50001} closed
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:141 ] - [ DEBUG ] {conn-10005, pstmt-20001} clearParameters. 
+2023-07-26 23:01:06 [ http-nio-8081-exec-1:141 ] - [ DEBUG ] {conn-10005} pool-recycle
+2023-07-26 23:01:35 [ SpringApplicationShutdownHook:29822 ] - [ DEBUG ] {conn-10001} closed
+2023-07-26 23:01:35 [ SpringApplicationShutdownHook:29823 ] - [ DEBUG ] {conn-10002} closed
+2023-07-26 23:01:35 [ SpringApplicationShutdownHook:29824 ] - [ DEBUG ] {conn-10003} closed
+2023-07-26 23:01:35 [ SpringApplicationShutdownHook:29825 ] - [ DEBUG ] {conn-10004} closed
+2023-07-26 23:01:35 [ SpringApplicationShutdownHook:29825 ] - [ DEBUG ] {conn-10005, pstmt-20000} closed
+2023-07-26 23:01:35 [ SpringApplicationShutdownHook:29825 ] - [ DEBUG ] {conn-10005, pstmt-20001} closed
+2023-07-26 23:01:35 [ SpringApplicationShutdownHook:29826 ] - [ DEBUG ] {conn-10005} closed
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:0 ] - [ DEBUG ] {conn-10001} connected
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:13 ] - [ DEBUG ] {conn-10002} connected
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:25 ] - [ DEBUG ] {conn-10003} connected
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:35 ] - [ DEBUG ] {conn-10004} connected
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:44 ] - [ DEBUG ] {conn-10005} connected
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:46 ] - [ DEBUG ] {conn-10005} pool-connect
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:93 ] - [ DEBUG ] {conn-10005, pstmt-20000} created. select * from user
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:101 ] - [ DEBUG ] {conn-10005, pstmt-20000} Parameters : []
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:102 ] - [ DEBUG ] {conn-10005, pstmt-20000} Types : []
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:107 ] - [ DEBUG ] {conn-10005, pstmt-20000} executed. 6.8515 millis. select * from user
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:109 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} open
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:110 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} Header: [id, username, age, gender, education]
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:115 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} Result: [1, xia xiu ying, 61, F, bachelor]
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:116 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} Result: [2, chin tin lok, 34, M, master]
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:117 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} Result: [3, ng ka fei, 60, M, master]
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:117 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} closed
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:118 ] - [ DEBUG ] {conn-10005, pstmt-20000} clearParameters. 
+2023-07-26 23:07:38 [ http-nio-8081-exec-6:119 ] - [ DEBUG ] {conn-10005} pool-recycle
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:0 ] - [ DEBUG ] {conn-10001} connected
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:13 ] - [ DEBUG ] {conn-10002} connected
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:22 ] - [ DEBUG ] {conn-10003} connected
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:31 ] - [ DEBUG ] {conn-10004} connected
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:40 ] - [ DEBUG ] {conn-10005} connected
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:44 ] - [ DEBUG ] {conn-10005} pool-connect
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:99 ] - [ DEBUG ] {conn-10005, pstmt-20000} created. select * from user limit ?, ?
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:108 ] - [ DEBUG ] {conn-10005, pstmt-20000} Parameters : [0, 5]
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:109 ] - [ DEBUG ] {conn-10005, pstmt-20000} Types : [INTEGER, INTEGER]
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:114 ] - [ DEBUG ] {conn-10005, pstmt-20000} executed. 7.6533 millis. select * from user limit ?, ?
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:116 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} open
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:118 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} Header: [id, username, age, gender, education]
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:123 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} Result: [1, xia xiu ying, 61, F, bachelor]
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:125 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} Result: [2, chin tin lok, 34, M, master]
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:125 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} Result: [3, ng ka fei, 60, M, master]
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:126 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50000} closed
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:127 ] - [ DEBUG ] {conn-10005, pstmt-20000} clearParameters. 
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:128 ] - [ DEBUG ] {conn-10005} pool-recycle
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:128 ] - [ DEBUG ] {conn-10005} pool-connect
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:129 ] - [ DEBUG ] {conn-10005, pstmt-20001} created. select count(*) from country
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:130 ] - [ DEBUG ] {conn-10005, pstmt-20001} Parameters : []
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:130 ] - [ DEBUG ] {conn-10005, pstmt-20001} Types : []
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:132 ] - [ DEBUG ] {conn-10005, pstmt-20001} executed. 2.2362 millis. select count(*) from country
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:132 ] - [ DEBUG ] {conn-10005, pstmt-20001, rs-50001} open
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:133 ] - [ DEBUG ] {conn-10005, pstmt-20001, rs-50001} Header: [count(*)]
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:133 ] - [ DEBUG ] {conn-10005, pstmt-20001, rs-50001} Result: [239]
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:134 ] - [ DEBUG ] {conn-10005, pstmt-20001, rs-50001} closed
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:134 ] - [ DEBUG ] {conn-10005, pstmt-20001} clearParameters. 
+2023-07-26 23:15:35 [ http-nio-8081-exec-4:135 ] - [ DEBUG ] {conn-10005} pool-recycle
+2023-07-26 23:15:43 [ http-nio-8081-exec-5:7934 ] - [ DEBUG ] {conn-10005} pool-connect
+2023-07-26 23:15:43 [ http-nio-8081-exec-5:7935 ] - [ DEBUG ] {conn-10005, pstmt-20002} created. select * from user
+2023-07-26 23:15:43 [ http-nio-8081-exec-5:7936 ] - [ DEBUG ] {conn-10005, pstmt-20002} Parameters : []
+2023-07-26 23:15:43 [ http-nio-8081-exec-5:7936 ] - [ DEBUG ] {conn-10005, pstmt-20002} Types : []
+2023-07-26 23:15:43 [ http-nio-8081-exec-5:7937 ] - [ DEBUG ] {conn-10005, pstmt-20002} executed. 1.4876 millis. select * from user
+2023-07-26 23:15:43 [ http-nio-8081-exec-5:7937 ] - [ DEBUG ] {conn-10005, pstmt-20002, rs-50002} open
+2023-07-26 23:15:43 [ http-nio-8081-exec-5:7938 ] - [ DEBUG ] {conn-10005, pstmt-20002, rs-50002} Header: [id, username, age, gender, education]
+2023-07-26 23:15:43 [ http-nio-8081-exec-5:7938 ] - [ DEBUG ] {conn-10005, pstmt-20002, rs-50002} Result: [1, xia xiu ying, 61, F, bachelor]
+2023-07-26 23:15:43 [ http-nio-8081-exec-5:7939 ] - [ DEBUG ] {conn-10005, pstmt-20002, rs-50002} Result: [2, chin tin lok, 34, M, master]
+2023-07-26 23:15:43 [ http-nio-8081-exec-5:7940 ] - [ DEBUG ] {conn-10005, pstmt-20002, rs-50002} Result: [3, ng ka fei, 60, M, master]
+2023-07-26 23:15:43 [ http-nio-8081-exec-5:7940 ] - [ DEBUG ] {conn-10005, pstmt-20002, rs-50002} closed
+2023-07-26 23:15:43 [ http-nio-8081-exec-5:7941 ] - [ DEBUG ] {conn-10005, pstmt-20002} clearParameters. 
+2023-07-26 23:15:43 [ http-nio-8081-exec-5:7941 ] - [ DEBUG ] {conn-10005} pool-recycle
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15095 ] - [ DEBUG ] {conn-10005} pool-connect
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15096 ] - [ DEBUG ] {conn-10005, pstmt-20000} Parameters : [0, 5]
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15096 ] - [ DEBUG ] {conn-10005, pstmt-20000} Types : [INTEGER, INTEGER]
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15097 ] - [ DEBUG ] {conn-10005, pstmt-20000} executed. 1.3065 millis. select * from user limit ?, ?
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15097 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50003} open
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15098 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50003} Header: [id, username, age, gender, education]
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15098 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50003} Result: [1, xia xiu ying, 61, F, bachelor]
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15098 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50003} Result: [2, chin tin lok, 34, M, master]
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15099 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50003} Result: [3, ng ka fei, 60, M, master]
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15100 ] - [ DEBUG ] {conn-10005, pstmt-20000, rs-50003} closed
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15100 ] - [ DEBUG ] {conn-10005, pstmt-20000} clearParameters. 
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15100 ] - [ DEBUG ] {conn-10005} pool-recycle
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15101 ] - [ DEBUG ] {conn-10005} pool-connect
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15101 ] - [ DEBUG ] {conn-10005, pstmt-20001} Parameters : []
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15101 ] - [ DEBUG ] {conn-10005, pstmt-20001} Types : []
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15103 ] - [ DEBUG ] {conn-10005, pstmt-20001} executed. 1.7022 millis. select count(*) from country
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15103 ] - [ DEBUG ] {conn-10005, pstmt-20001, rs-50004} open
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15103 ] - [ DEBUG ] {conn-10005, pstmt-20001, rs-50004} Header: [count(*)]
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15103 ] - [ DEBUG ] {conn-10005, pstmt-20001, rs-50004} Result: [239]
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15104 ] - [ DEBUG ] {conn-10005, pstmt-20001, rs-50004} closed
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15104 ] - [ DEBUG ] {conn-10005, pstmt-20001} clearParameters. 
+2023-07-26 23:15:50 [ http-nio-8081-exec-6:15105 ] - [ DEBUG ] {conn-10005} pool-recycle
+2023-07-26 23:15:52 [ http-nio-8081-exec-9:16781 ] - [ DEBUG ] {conn-10005} pool-connect
+2023-07-26 23:15:52 [ http-nio-8081-exec-9:16781 ] - [ DEBUG ] {conn-10005, pstmt-20002} Parameters : []
+2023-07-26 23:15:52 [ http-nio-8081-exec-9:16781 ] - [ DEBUG ] {conn-10005, pstmt-20002} Types : []
+2023-07-26 23:15:52 [ http-nio-8081-exec-9:16782 ] - [ DEBUG ] {conn-10005, pstmt-20002} executed. 1.02 millis. select * from user
+2023-07-26 23:15:52 [ http-nio-8081-exec-9:16782 ] - [ DEBUG ] {conn-10005, pstmt-20002, rs-50005} open
+2023-07-26 23:15:52 [ http-nio-8081-exec-9:16783 ] - [ DEBUG ] {conn-10005, pstmt-20002, rs-50005} Header: [id, username, age, gender, education]
+2023-07-26 23:15:52 [ http-nio-8081-exec-9:16783 ] - [ DEBUG ] {conn-10005, pstmt-20002, rs-50005} Result: [1, xia xiu ying, 61, F, bachelor]
+2023-07-26 23:15:52 [ http-nio-8081-exec-9:16783 ] - [ DEBUG ] {conn-10005, pstmt-20002, rs-50005} Result: [2, chin tin lok, 34, M, master]
+2023-07-26 23:15:52 [ http-nio-8081-exec-9:16784 ] - [ DEBUG ] {conn-10005, pstmt-20002, rs-50005} Result: [3, ng ka fei, 60, M, master]
+2023-07-26 23:15:52 [ http-nio-8081-exec-9:16784 ] - [ DEBUG ] {conn-10005, pstmt-20002, rs-50005} closed
+2023-07-26 23:15:52 [ http-nio-8081-exec-9:16784 ] - [ DEBUG ] {conn-10005, pstmt-20002} clearParameters. 
+2023-07-26 23:15:52 [ http-nio-8081-exec-9:16785 ] - [ DEBUG ] {conn-10005} pool-recycle
+2023-07-26 23:18:39 [ SpringApplicationShutdownHook:183934 ] - [ DEBUG ] {conn-10001} closed
+2023-07-26 23:18:39 [ SpringApplicationShutdownHook:183935 ] - [ DEBUG ] {conn-10002} closed
+2023-07-26 23:18:39 [ SpringApplicationShutdownHook:183935 ] - [ DEBUG ] {conn-10003} closed
+2023-07-26 23:18:39 [ SpringApplicationShutdownHook:183936 ] - [ DEBUG ] {conn-10004} closed
+2023-07-26 23:18:39 [ SpringApplicationShutdownHook:183936 ] - [ DEBUG ] {conn-10005, pstmt-20000} closed
+2023-07-26 23:18:39 [ SpringApplicationShutdownHook:183936 ] - [ DEBUG ] {conn-10005, pstmt-20001} closed
+2023-07-26 23:18:39 [ SpringApplicationShutdownHook:183936 ] - [ DEBUG ] {conn-10005, pstmt-20002} closed
+2023-07-26 23:18:39 [ SpringApplicationShutdownHook:183937 ] - [ DEBUG ] {conn-10005} closed
